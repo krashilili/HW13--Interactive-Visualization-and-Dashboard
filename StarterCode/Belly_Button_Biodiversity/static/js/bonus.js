@@ -5,6 +5,8 @@ function buildGauge(wfreq) {
   // Enter the washing frequency between 0 and 180
   var level = parseFloat(wfreq) * 20;
 
+  console.log("wfreq: ", wfreq);
+
   // Trig to calc meter point
   var degrees = 180 - level;
   var radius = 0.5;
